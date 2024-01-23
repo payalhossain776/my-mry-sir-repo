@@ -5,6 +5,10 @@ body {
 .text-primary{
     color: #FD6E0A;
 }
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A; 
+}
 /* navber releted  */
 nav{
     display: flex;
@@ -24,4 +28,5 @@ nav li{
 }
 nav a{
     text-decoration: none;
+    color: #474747;
 }
