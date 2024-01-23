@@ -7,11 +7,19 @@ body {
 }
 .btn-primary{
     border-radius: 5px;
-    background: #FD6E0A; 
+    background: #FD6E0A;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700; 
+    padding: 15px 35px;
 }
 /* navber releted  */
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 .nav-title{
 color: var(--Dark-01, #181818);
@@ -20,7 +28,8 @@ font-weight: 800;
 }
 nav > ul{
     display: flex;
-    text-decoration: none;
+    align-items: center;
+
 }
 nav li{
     list-style: none;
