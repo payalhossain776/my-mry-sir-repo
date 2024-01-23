@@ -1,0 +1,27 @@
+/* shere with font */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+/* navber releted  */
+nav{
+    display: flex;
+}
+.nav-title{
+color: var(--Dark-01, #181818);
+font-size: 45px;
+font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    text-decoration: none;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+}
